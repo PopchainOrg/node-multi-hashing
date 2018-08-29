@@ -5,7 +5,7 @@
             "sources": [
                 "multihashing.cc",
                 "c_aes128.c",
-                "c_blake2s.c",
+                "blake2s.c",
                 "c_blake2s256.c",
                 "c_camellia128.c",
                 "common.c",
