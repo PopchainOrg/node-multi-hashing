@@ -3,6 +3,7 @@
 #include <v8.h>
 #include <stdint.h>
 #include <nan.h>
+#include "oneWayFunction.h"
 
 extern "C" {
     #include "PoW.h"
