@@ -34,7 +34,7 @@ NAN_METHOD(cryptopop) {
 
     uint32_t input_len = Buffer::Length(target);
     //input_len=input_len;
-    
+    initOneWayFunction();
     hashpop(input, input_len, output);
 
     v8::Local<v8::Value> returnValue = Nan::CopyBuffer((char *)output, OUTPUT_LEN).ToLocalChecked();
